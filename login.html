@@ -1,53 +1,97 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
+	<title>Login </title>
+	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="source/css/style.css">
-    <link rel="stylesheet" href="source/fontawesome-free-6.2.0-web/css/fontawesome.css">
-    <link rel="stylesheet" href="source/fontawesome-free-6.2.0-web/css/brands.css">
-    <link rel="stylesheet" href="source/fontawesome-free-6.2.0-web/css/solid.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="assets/images/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="assets/fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="assets/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="assets/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="assets/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="assets/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="assets/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="assets/css/util.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+<!--===============================================================================================-->
 </head>
-
 <body>
-    <div class="container">
-        <div class="content">
-            <h4>Welcome</h4>
-        </div>
-        <form action="" method="post">
-            <div class="login-user">
-                <div class="i">
-                    <i class="fa-solid fa-user"></i>
-                </div>
-                <div>
-                    <h5>Username</h5>
-                    <input type="text" class="Username">
-                </div>
-            </div>
-            <div class="login-password">
-                <div class="i">
-                    <i class="fa-solid fa-lock"></i>
-                </div>
-                <div>
-                    <h5>Password</h5>
-                    <input type="password" name="password" id="">
-                </div>
-                <span class="change-password">
-                    <i id="text" class="fa-solid fa-eye-slash"></i>
-                    <i id="dots" class="fa-solid fa-eye"></i>
-                </span>
-            </div>
-            <div class="btn-login">
-                <button type="submit">Login</button>
-            </div>
-        </form>
-    </div>
-    <div>
-        <span>Liên hệ quản trị</span>
-    </div>
-    <script type="text/javascript" src="source/js/main.js"></script>
-</body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form">
+					<span class="login100-form-title p-b-26">
+						Welcome
+					</span>
+					<div class="wrap-input100 validate-input" data-validate = "Please enter Username">
+						<input class="input100" type="text" name="Username">
+						<span class="focus-input100" data-placeholder="Username"></span>
+					</div>
 
+					<div class="wrap-input100 validate-input" data-validate="Please enter password">
+						<span class="btn-show-pass">
+							<i class="zmdi zmdi-eye"></i>
+						</span>
+						<input class="input100" type="password" name="pass">
+						<span class="focus-input100" data-placeholder="Password"></span>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn">
+								Login
+							</button>
+						</div>
+					</div>
+
+					<div class="text-center p-t-115">
+						<span class="txt1">
+							You have an trouble?
+						</span>
+
+						<a class="txt2" href="404.html">
+							Contact Us
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	
+<!--===============================================================================================-->
+	<script src="assets/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="assets/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="assets/bootstrap/js/popper.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="assets/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="assets/daterangepicker/moment.min.js"></script>
+	<script src="assets/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="assets/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="assets/js/login.js"></script>
+
+</body>
 </html>
