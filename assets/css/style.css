@@ -2807,6 +2807,7 @@ p.copyright {
     padding-top: 40px;
   }
 
+
 }
 
 @media screen and (max-width: 992px) {
@@ -3013,4 +3014,5 @@ p.copyright {
   .back-to-top {
     visibility: hidden;
   }
+  
 }
