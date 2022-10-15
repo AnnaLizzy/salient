@@ -485,7 +485,7 @@ p {
 }
 
 .home-hero {
-  background: url('/assets/images/gioi-thieu-banner.jpg');
+  background: url('../images/gioi-thieu-banner.jpg');
   background-size: cover;
 }
 
