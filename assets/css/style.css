@@ -1732,7 +1732,7 @@ ul.details-list li:last-child {
 }
 
 .landing-hero {
-  background: url('/assets/images/gioi-thieu-banner.jpg');
+  background: url('./assets/images/gioi-thieu-banner.jpg');
   background-size: cover;
 }
 
