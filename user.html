@@ -1,19 +1,174 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Username</title>
+    <title>Website Security</title>
 
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap CSS Style -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  
+    <!-- Template CSS Style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  
+    <!-- Animate CSS  -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+  
+    <!-- FontAwesome 4.3.0 Icons  -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="source/fontawesome-free-6.2.0-web/css/fontawesome.css">
+    <link rel="stylesheet" href="source/fontawesome-free-6.2.0-web/css/brands.css">
+    <link rel="stylesheet" href="source/fontawesome-free-6.2.0-web/css/solid.css">
+  
+    <!-- et line font  -->
+    <link rel="stylesheet" href="assets/css/et-line-font/style.css">
 
 </head>
-<body>
-    
-</body>
-</html>
-<!-- Preload the Whole Page -->
-<div id="preloader">
-    <div id="loading-animation">&nbsp;</div>
 
-    
- </div>
+<body>
+    <!-- Preload the Whole Page -->
+    <div id="preloader">
+        <div id="loading-animation">&nbsp;</div>
+    </div>
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#navigation-nav">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="assets/images/logosystem.png" alt="photo"
+                            width="40px"></a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navigation-nav">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a class="section-scroll" href="#wrapper">Trang chủ</a></li>
+                        <li class="dropdown">
+                            <a class=" dropdown-toggle" role="button" data-toggle="dropdown" href="#">Thông tin</a>
+                            <ul class="dropdown-menu" style="right: auto;">
+                                <li><a class="checkRole" href="#">Kiểm tra quyền hạn</a></li>
+                                <li><a class="checkFile" href="#">Kiểm tra đơn</a></li>
+                                <li><a class="checkId" href="#">Kiểm tra tiến độ làm thẻ</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                    </hr>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Kiểm tra đơn môi trường</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#features-section">Trợ giúp</a></li>
+                        <li><a href="#screenshots-section">Quản lý hàng ra vào</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                        <li class="dropdown">
+                        <a class=" dropdown-toggle" data-toggle="dropdown" href="#">Xin chào @Username</a>
+                            <ul class="dropdown-menu" style="right: auto;">
+                            <li><a href="#">Quản lý tài khoản</a></li> 
+                            <li><a href="#">Đăng xuất</a></li> 
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" onclick="changeLang();" class="dropdown-toggle"
+                                data-toggle="dropdown">
+                                <img src="assets/images/Flags/VN.png" />
+                                VN
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu" style="right: auto;">
+                                <li><a href="#"><img src="assets/images/Flags/CN.png" />&nbsp CN</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container -->
+        </nav>
+    </header>
+
+    <!---------------------------------------------------------------------------->
+    <div class="side-bar container">
+       <ul class="nav">
+       <li><a href="#"> Quyền hạn ký duyệt ra vào cổng</a></li>
+        <li><a href="#"> Thẻ thông hành xe</a></li>
+        <li><a href="#"> Thẻ công tác tại nhà máy/Thẻ khách hàng công tác tại nhà máy</a></li>
+        <li><a href="#"> Thẻ khách VIP</a></li> 
+        <li><a href="#"> Đơn Xin Mang Vào/Mang Ra Thiết Bị Công Nghệ Thông Tin</a></li>
+        <li><a href="#"> Biểu xin trích lục dữ liệu camera tại TTGS</a></li>
+       </ul>
+    </div>
+
+    <!---------------------------------------------------------------------------->
+
+
+    <!-- Footer
+    ================================================== -->
+    <footer>
+        <div id="footer-section" class="text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <ul class="footer-social-links">
+                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="#">Trợ giúp</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Zalo</a></li>
+                        </ul>
+                        <br>
+                        <br>
+                        <P>
+                            Nhân viên quản lý: Vũ Văn Hinh(EXT:535+27299/535+20770)<br>
+                            Email: system-attwvn@mail.foxconn.com<br>
+                            Nếu điện thoại không thể kết nối được,
+                            Bạn hãy gửi những bất thường đến hộp thư của Ban an toàn trung ương,
+                            chúng tôi sẽ xử lý và phản hồi trong thời gian ngắn nhất.<br> Xin cảm ơn!
+                        </P>
+                        <p class="copyright">
+                            &copy; 2022 - Created With <i id="heart" class="fa-solid fa-heart"></i> By
+                            <strong>ATTW</strong></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    </div> <!-- End wrapper -->
+
+    <!-- Back-to-top
+    ================================================== -->
+    <div class="back-to-top">
+        <i class="fa fa-angle-up fa-3x"></i>
+    </div> <!-- end back-to-top -->
+
+    <!-- JS libraries and scripts -->
+  <script src="assets/js/jquery-1.11.3.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/bootstrap-hover-dropdown.min.js"></script>
+  <script src="assets/js/jquery.appear.min.js"></script>
+  <script src="assets/js/jquery.bxslider.min.js"></script>
+  <script src="assets/js/jquery.owl.carousel.min.js"></script>
+  <script src="assets/js/jquery.countTo.js"></script>
+  <script src="assets/js/jquery.easing.1.3.js"></script>
+  <script src="assets/js/jquery.imagesloaded.min.js"></script>
+  <script src="assets/js/jquery.isotope.js"></script>
+  <script src="assets/js/jquery.placeholder.js"></script> 
+  <script src="assets/js/jquery.stellar.min.js"></script>
+  <script src="assets/js/jquery.waypoints.js"></script>
+  <script src="assets/js/jquery.fitvids.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+  <script src="assets/js/jquery.countdown.js"></script>
+  <script src="assets/js/jquery.navbar-scroll.js"></script>  
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

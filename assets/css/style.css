@@ -2875,8 +2875,10 @@ p.copyright {
 }
 
 @media screen and (max-width: 480px) {
-  .back-to-top {
-    visibility: hidden;
-  }
   
+  
+}
+
+.side-bar{
+  padding-left: 0px;
 }
