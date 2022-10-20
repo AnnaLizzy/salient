@@ -932,12 +932,6 @@ ul.filter-list li:last-child a:after {
 /* =Tweet section*/
 /***********************************************************************************************/
 
-#tweet-section {
-  background: url('../images/temp/tweet-bg.jpg') center top;
-  position: relative;
-  padding: 80px 0;
-}
-
 #tweet-section:before {
   position: absolute;
   content: '';
@@ -1228,70 +1222,6 @@ ul.features-list li {
   text-align: center;
 }
 
-/*--------------------
-  Video section
-----------------------*/
-
-#video-section {
-  background: url('../images/temp/tweet-bg.jpg') center top;
-  position: relative;
-  padding: 100px 0;
-}
-
-#video-section:before {
-  position: absolute;
-  content: '';
-  top: 0;
-  left: 0;
-  background: #fc6e51;
-  opacity: .9;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-}
-
-#video-section .container {
-  position: relative;
-  z-index: 3;
-}
-
-#video-section .video-section-content a {
-  display: block;
-  width: 80px;
-  height: 80px;
-  margin: 0 auto 20px;
-  border: 3px solid rgba(255,255,255, .93);
-  text-align: center;
-  line-height: 78px;
-  font-size: 28px;
-  color: rgba(255,255,255, .93);
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-}
-
-#video-section .video-section-content a .fa-play {
-  position: relative;
-  left: 4px;
-}
-
-.video-head {
-  font-size: 38px;
-  font-weight: 500;
-  line-height: 1.3;
-  text-align: center;
-  color: #fff;
-  padding-bottom: 7px;
-}
-
-.video-sub-heading {
-  font-size: 20px;
-  font-weight: 300;
-  text-align: center;
-  line-height: 1.3;
-  opacity: .9;
-  color: #fff;
-}
 
 /*--------------------
   Offer section
