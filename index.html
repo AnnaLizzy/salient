@@ -50,7 +50,7 @@
   </div>
 
   <!-- Navbar -->
-  <header class="header">
+  <header class="header darkmode">
     <nav class="navbar navbar-default navbar-static-top">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -337,6 +337,16 @@
   <div class="back-to-top">
     <i class="fa fa-angle-up fa-3x"></i>
   </div> <!-- end back-to-top -->
+  <!--------------dark mode-------------------->
+  <script src="./assets/darkmode/darkmode-js.js"></script>
+    <script>
+      new Darkmode({
+        bottom: '32px',
+        right: '32px',
+        time: '0.5s',
+        label: '🌓'
+      }).showWidget();
+    </script>
 
   <!-- JS libraries and scripts -->
   <script src="assets/js/jquery-1.11.3.min.js"></script>

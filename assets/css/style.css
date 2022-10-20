@@ -636,18 +636,7 @@ ul.caption-slides li {
   margin-bottom: 15px;
 }
 
-.btn-link-a {
-  cursor: pointer;
-  color: rgba(17, 17, 17, 0.9);
-  text-transform: uppercase;
-  display: block;
-  font-weight: 500;
-  margin-top: 25px;
-}
 
-.btn-link-a:hover {
-  color: #000;
-}
 
 #about-section {
   padding: 110px 0 120px 0!important;
@@ -660,7 +649,7 @@ ul.caption-slides li {
 
 
 .big-title-sec hr {
-  border: 1.5px solid #000;
+  border: 1.5px solid rgb(26, 25, 25);
   margin: 30px auto;
   width: 80px!important;
   margin-bottom: 50px;
@@ -670,7 +659,7 @@ ul.caption-slides li {
   font-weight: 300;
   text-transform: none;
   font-size: 24px;
-  color: #000;
+  color: rgb(26, 25, 25);
 }
 
 .big-title-sec .big-subtitle {
@@ -682,7 +671,7 @@ ul.caption-slides li {
   font-weight: 300;
   line-height: 1.45;
   text-transform: none;
-  color: #000;
+  color: rgb(26, 25, 25);
 }
 
 .big-title-sec p {
@@ -2646,7 +2635,7 @@ p.copyright {
   font-size: 12px;
   position: fixed;
   right: 25px;
-  bottom: 25px;
+  bottom: 75px;
   opacity: 0.7;
   -webkit-transition: all .3s ease-in-out;
      -moz-transition: all .3s ease-in-out;
