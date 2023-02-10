@@ -19,6 +19,9 @@
   color: red;
 }
 /***********************************************************************************************/
+.nav-item{
+  text-align: center;
+}
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -606,7 +609,7 @@ ul.caption-slides li {
   font-weight: 300;
   text-transform: none;
   font-size: 24px;
-  color: rgb(26, 25, 25);
+  color: rgb(48, 46, 46);
 }
 
 .big-title-sec .big-subtitle {
@@ -618,7 +621,7 @@ ul.caption-slides li {
   font-weight: 300;
   line-height: 1.45;
   text-transform: none;
-  color: rgb(26, 25, 25);
+  color: rgb(58, 54, 54);
 }
 
 .big-title-sec p {
@@ -2148,7 +2151,6 @@ p.copyright {
     padding-top: 40px;
   }
 
-
 }
 
 @media screen and (max-width: 992px) {
@@ -2234,6 +2236,7 @@ p.copyright {
 }
 
 @media screen and (max-width: 768px) {
+
 
   .navbar .container {
     width: auto;

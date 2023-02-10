@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Security</title>
-
+    <link rel="stylesheet" href="assets/css/style.scss">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
 
     <!-- Bootstrap CSS Style -->
@@ -135,7 +135,7 @@
     <div class="row ">
         <div class="col-md-2">
             <ul class="nav nar-tabs">
-            <li><a class="nav-item active" href="mylist.html">Công việc của tôi</a></li>
+            <li><a class="nav-item active" href="#"> test</a></li>
             <li><a class="nav-item " href="#" localize-content>Email</a></li>  
             <li><a class="nav-item" href="#" localize-content>Kiểm tra quyền hạn</a></li>
             <li><a class="nav-item" href="#"> test</a></li>
@@ -163,26 +163,14 @@
             </ul>
         </div>
         <div class="col-md-4">
-            <h4>Đổi mật khẩu</h4>
-            <form id="change-password-form" method="post">
-                <div asp-validation-summary="All" class="text-danger"></div>
-                <div class="form-group">
-                    <label asp-for="Input.OldPassword"></label>
-                    <input asp-for="Input.OldPassword" class="form-control" />
-                    <span asp-validation-for="Input.OldPassword" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Input.NewPassword"></label>
-                    <input asp-for="Input.NewPassword" class="form-control" />
-                    <span asp-validation-for="Input.NewPassword" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Input.ConfirmPassword"></label>
-                    <input asp-for="Input.ConfirmPassword" class="form-control" />
-                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
-                </div>
-                <button type="submit" class="btn btn-primary">Update password</button>
-            </form>
+            <h4>Công việc của tôi</h4>
+            <h5>Loại hình :</h5>
+            <select name="" id="" class="custom-select" style="width: 200px;">
+                <option value="0" selected>--Chọn--</option>
+                <option value="1">Css</option>
+                <option value="2">Html</option>
+                <option value="3">Java</option>
+            </select>
         </div>
     </div>
     <!---------------------------------------------------------------------------->
@@ -210,7 +198,7 @@
                             chúng tôi sẽ xử lý và phản hồi trong thời gian ngắn nhất.<br> Xin cảm ơn!
                         </P>
                         <p class="copyright">
-                            Copyright&copy; 2022 . c - Created With <i id="heart" class="fa-solid fa-heart"></i> By
+                            Copyright&copy; 2022 . All rights reserved - Created With <i id="heart" class="fa-solid fa-heart"></i> By
                             <strong>ATTW</strong></a>
                         </p>
                     </div>
