@@ -2153,7 +2153,7 @@ p.copyright {
 
 }
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
 
   body {
     padding-top: 55px;
@@ -2233,8 +2233,8 @@ p.copyright {
     text-align: center;
   }
 
-}
-
+} */
+/* 
 @media screen and (max-width: 768px) {
 
 
@@ -2361,4 +2361,4 @@ p.copyright {
 
 .side-bar{
   padding-left: 0px;
-}
+} */
